@@ -1,0 +1,13 @@
+https://github.com/84KaliPleXon3/OpenBTS-UMTS
+Set SIM card to use COMP128v1 for both 2G and 3G
+
+
+PDP of 0 is 0
+06:16.5 UL_DCCH_MessageType_PR_uplinkDirectTransfer UE#2 URNTI=b212 stCELL_FACH rbid=3
+06:16.5 UL GMM Msg: AuthenticationAndCipheringResp UE#2 URNTI=b212 stCELL_FACH imsi=901700000038512
+PDP of 0 is 0
+sh: 1: /OpenBTS/comp128: not found
+CRIT 9:9 2024-02-05T10:06:16.5 ../servershare.cpp:220:authenticate: error: popen result failed
+06:21.3 UL_DCCH_MessageType_PR_signallingConnectionReleaseIndication UE#1 URNTI=b211 stCELL_FACH rbid=2
+06:21.3 DL_DCCH RRC_Connection_Release_Message message size=3 UE#1 URNTI=b211 stCELL_FACH rbid=2
+
